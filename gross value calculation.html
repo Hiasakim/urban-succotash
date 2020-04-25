@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic template</title>
+	</head>
+<body>
+    <script type="text/javascript">
+    	var netValue = prompt("Please give me a net value in Euro!");
+    	grossValue = netValue * 1.19;
+    	taxValue = netValue * 19 / 100;
+    	//taxValue = grossValue - netValue;
+    	document.write("This was your net value: " + netValue + " €" + '<br>' + "This is your gross value: " + grossValue + " €" + '<br>' + "This is your tax value: " + taxValue + " €");
+
+
+
+    </script>
+
+</body>
+</html>
